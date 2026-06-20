@@ -1,0 +1,3 @@
+This is a nano practice file.
+I am learning Linux text editing.
+

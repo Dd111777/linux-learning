@@ -1,0 +1,82 @@
+     1	 hello from ubuntu
+     2	# Day 1 Linux Notes
+     3	
+     4	## 1. Current User and Directory
+     5	
+     6	```bash
+     7	whoami
+     8	pwd
+     9	ls
+    10	ls -l
+    11	ls -a
+    12	```
+    13	
+    14	- `whoami` shows the current user.
+    15	- `pwd` shows the current working directory.
+    16	- `ls` lists files and directories.
+    17	- `ls -l` shows detailed information.
+    18	- `ls -a` shows hidden files.
+    19	
+    20	## 2. Important Paths
+    21	
+    22	```bash
+    23	cd /
+    24	cd ~
+    25	cd ..
+    26	```
+    27	
+    28	- `/` is the root directory.
+    29	- `~` is the current user's home directory.
+    30	- `..` means the parent directory.
+    31	- `.` means the current directory.
+    32	
+    33	## 3. Creating and Reading Files
+    34	
+    35	```bash
+    36	mkdir -p ~/linux-learning/week0/{notes,scripts,projects}
+    37	touch day1.md
+    38	cat day1.md
+    39	cat -n day1.md
+    40	```
+    41	
+    42	- `mkdir -p` creates directories recursively.
+    43	- `touch` creates an empty file or updates its timestamp.
+    44	- `cat` prints file contents.
+    45	- `cat -n` prints file contents with line numbers.
+    46	
+    47	## 4. Output Redirection
+    48	
+    49	```bash
+    50	echo "hello" > a.txt
+    51	echo "linux" >> a.txt
+    52	ls not_exist 2> error.log
+    53	command > all.log 2>&1
+    54	```
+    55	
+    56	- `>` overwrites a file with standard output.
+    57	- `>>` appends standard output to a file.
+    58	- `2>` redirects standard error.
+    59	- `2>&1` redirects standard error to standard output.
+    60	
+    61	## 5. My Understanding
+    62	
+    63	Today I started learning Ubuntu Linux.
+    64	
+    65	I learned root directory, home directory, and terminal basics.
+    66	
+    67	I learned how to use `/`, `~`, `pwd`, `ls`, `cd`, `mkdir`, `touch`, and `cat`.a
+    68	cd /
+    69	cd ~
+    70	mkdir -p xxx
+    71	touch 
+    72	cat
+    73	cat -n # xianshi hanghao
+    74	command > file 
+    75	command >> file
+    76	command 2> error.log
+    77	command > all.log 2>&1
+    78	```
+    79	Today I started learning Ubuntu Linux.
+    80	I learned root directory, home directory, and terminal basics.
+    81	 I learned how to use /, ~, pwd, ls, cd, mkdir, touch, and cat.
+    82	
